@@ -1,0 +1,48 @@
+@media screen and (max-width:992px) {
+    .caja_padre{grid-template-columns: repeat(2,1fr) }
+    
+       }
+      
+  @media screen and (max-width:767px) {
+    .caja_padre{ grid-template-columns: 1fr}
+    
+       }
+/**/
+    @media screen and (max-width: 1240px){
+        .padre-cards{
+          grid-template-columns: repeat(2,1fr);}
+         }
+        
+          
+      @media screen and (max-width:767px) {
+        .padre-cards{
+          display: flex;
+          flex-direction: column;
+          align-items: center;}}
+
+
+          @media screen and (max-width:749px){
+            img{
+              max-width: 90%;
+              margin: 0 auto;
+            }
+            .seccion-contacto{
+              max-width: 90%;
+              margin: 0 auto;
+
+            }
+            .formulario{
+              max-width: 90%;
+              margin: 0 auto;
+            }
+            .h1_contacto{
+              font-size: 1rem;
+            }
+          }
+
+
+@media screen and (max-width:375px){
+  .logo{
+    max-width: 70%;
+  }
+}

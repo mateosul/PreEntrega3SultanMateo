@@ -1,0 +1,46 @@
+.div__tabla1{
+    margin-top: 2rem;}
+
+table{
+ text-align: center;
+border: solid;}
+
+th{
+font-size: 2rem;
+border: solid 1rem red;
+color: #00fd33;
+background-color: black;}
+
+td {
+border: solid 1rem blue;
+font-size: 1.5rem;
+color: #eafa0e;
+background-color: black;}
+
+
+.h2-h3-paquetes{
+   color: rgb(11, 138, 241);
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #eafa0e;
+   }
+   .h3_paquetes{
+    text-align: center;
+    margin: 1rem 1rem ;
+   }
+
+   .div_paquetes{
+    display: flex;
+    justify-content: center;
+
+   }
+.grupo_fotos1{
+    margin-bottom: 3rem;
+}
+
+.div_tabla{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Comunicate con nosotros" />
+    <meta name="keywords" content="Contacto, Ubicacion" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="../img/foto1index.jpeg" />
+
+    <title>Future | Contacto</title>
+  </head>
+  <body>
+    <header>
+      <section class="top-nav">
+        <div>
+          <img src="../img/maxresdefault.jpg" alt="" class="logo" />
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="tienda.html">TIENDA</a></li>
+          <li><a href="paquetes.html">PAQUETES</a></li>
+          <li><a href="galeria.html">GALERIA</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </section>
+    </header>
+
+    <h1 class="h1_contacto">Formulario de contacto</h1>
+    <form>
+      <div class="formulario">
+        <fieldset class="prueba">
+          <!--es para meter todo en cajas-->
+          <legend>Tus datos personales</legend>
+          <!--Se convina con el fieldset-->
+          <div>
+            <label for="nombre">Nombre</label>
+            <input name="Nombre" id="nombre" required />
+          </div>
+
+          <div>
+            <label for="apellido">Apellido</label>
+            <input name="Nombre" id="apellido" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" />
+          </div>
+
+          <div>
+            <select id="" required>
+              <option value="">Estado civil</option>
+              <option value="">Casado</option>
+              <option value="">Viudo</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Desea recibir el Newsletter?</label>
+            <input type="checkbox" />
+          </div>
+
+          <div>
+            <label for="mensaje">Dejanos tu mensaje</label>
+            <textarea id="mensaje" cols="30" rows="1" maxlength="10"></textarea>
+          </div>
+
+          <input type="submit" />
+
+          <input type="reset" />
+        </fieldset>
+      </div>
+    </form>
+
+    <section class="seccion-contacto">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8228362533187!2d-64.18868978424841!3d-31.41900690352394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28463594bc5%3A0xb84046c3359a7f55!2sAv.%20Duarte%20Quir%C3%B3s%2096%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1665736987147!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer><p> Todos los derechos reservados</p></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
