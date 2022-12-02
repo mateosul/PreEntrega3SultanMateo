@@ -1,18 +1,17 @@
+@import "mixins";
+
 .div__fotosGaleria{
-    display: flex;
-    justify-content: center;
+    @include flexbox2;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
 
-}
-.div__fotosGaleria img{
-    width: 35rem;
-    height: 35rem;
-   
+    img{
+        width: 35rem;
+        height: 35rem;
+    }
 }
 
 .h1_galeria{
-    margin-bottom: 3rem;
-    
+    margin-bottom: 3rem;   
 }
