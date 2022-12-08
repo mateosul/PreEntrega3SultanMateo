@@ -15,3 +15,14 @@
 .h1_galeria{
     margin-bottom: 3rem;   
 }
+
+.div_galeria {
+    @include flexbox2;
+    
+}
+
+.grupo_fotos1{
+    
+    display: flex;
+    flex-wrap: nowrap;
+}

@@ -167,6 +167,16 @@ td {
   margin-bottom: 3rem;
 }
 
+.div_galeria {
+  display: flex;
+  justify-content: center;
+}
+
+.grupo_fotos1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 #productos-tienda h2,
 p {
   text-align: center;
@@ -368,30 +378,57 @@ button {
   color: #00fd33 !important;
 }
 
-@media screen and (max-width: 992px) {
-  .caja_padre {
-    grid-template-columns: repeat(2, 1fr);
+@media (min-width: 320px) and (max-width: 425px) {
+  .logo {
+    max-width: 70%;
   }
-}
-@media screen and (max-width: 767px) {
-  .caja_padre {
-    grid-template-columns: 1fr;
+  .div__fotosGaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
-}
-/**/
-@media screen and (max-width: 1240px) {
-  .padre-cards {
-    grid-template-columns: repeat(2, 1fr);
+  .formulario {
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 1.5rem;
   }
-}
-@media screen and (max-width: 767px) {
+  .foto_index {
+    width: 100%;
+  }
+  .deje {
+    width: 90%;
+    margin: 0 auto;
+  }
+  footer {
+    font-size: 1.5rem;
+  }
   .padre-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  img {
+    width: 100%;
+  }
+  .div__fotosGaleria {
+    max-width: 90%;
+    margin: 0 auto;
+    height: 35%;
+  }
+  .fotos_galeria {
+    width: 80%;
+  }
 }
-@media screen and (max-width: 767px) {
+@media (min-width: 426px) and (max-width: 767px) {
+  .caja_padre {
+    grid-template-columns: 1fr;
+  }
+  .padre-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   img {
     max-width: 100%;
     margin: 0 auto;
@@ -407,25 +444,48 @@ button {
   .h1_contacto {
     font-size: 1rem;
   }
-}
-@media screen and (max-width: 375px) {
-  .logo {
-    max-width: 70%;
-  }
-}
-@media (min-width: 320px) and (max-width: 425px) {
-  .div__fotosGaleria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+  .foto_index {
+    width: 100%;
+    margin: 0 auto;
   }
   .formulario {
-    max-width: 85%;
+    font-size: 2rem;
+  }
+  .deje {
+    max-width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .div_index-video_img {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+  .caja_padre {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .padre-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
   .foto_index {
     width: 100%;
+  }
+  .div_index-video_img {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .foto_index {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  iframe {
+    width: 65%;
+    height: 50rem;
+    margin: 0 auto;
   }
 }
 /********BOSTRAP MENU********/
@@ -458,29 +518,6 @@ button {
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
-  }
-}
-@media (min-width: 750px) and (max-width: 1439px) {
-  .foto_index {
-    width: 100%;
-  }
-}
-@media (min-width: 1440px) and (max-width: 2560px) {
-  .foto_index {
-    width: 65%;
-    margin: 0 auto;
-    margin-top: 1rem;
-  }
-  iframe {
-    width: 65%;
-    height: 50rem;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 425px) and (max-width: 767px) {
-  .foto_index {
-    max-width: 100%;
-    margin: 0 auto;
   }
 }
 
