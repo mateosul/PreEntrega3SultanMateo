@@ -26,6 +26,7 @@ h1 {
   font-size: 3rem;
   justify-content: center;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 ul {
@@ -430,6 +431,10 @@ button {
     margin: 0 auto;
     margin-top: 2rem;
   }
+  #carouselExampleIndicators {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 @media (min-width: 426px) and (max-width: 767px) {
   .caja_padre {
@@ -485,6 +490,10 @@ button {
   }
   .div_index-video_img {
     margin-top: 1rem;
+  }
+  #carouselExampleIndicators {
+    width: 45%;
+    margin: 0 auto;
   }
 }
 @media (min-width: 1441px) and (max-width: 2560px) {
