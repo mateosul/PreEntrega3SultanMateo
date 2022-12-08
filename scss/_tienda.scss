@@ -27,6 +27,11 @@ p {
   }
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
 #caja_tienda {
   grid-area: banner;
   background-color: $color-titulos;
@@ -72,3 +77,9 @@ button {
   color: #00fd33;
   text-align: center;
 }
+
+.fotos_tienda{
+  width: 100%;
+  height: 15rem;
+}
+

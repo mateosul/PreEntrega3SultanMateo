@@ -35,6 +35,9 @@ ul {
 footer {
   font-size: 20px;
   text-align: center;
+  background-color: black;
+  min-height: 5vh;
+  margin-top: 3rem;
 }
 
 p {
@@ -91,6 +94,11 @@ mark {
 .ratio-ratio-16x9 {
   display: flex;
   justify-content: center;
+}
+
+.div_index-video_img {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .div__tabla1 {
@@ -185,6 +193,11 @@ p {
   height: 12rem;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
 #caja_tienda {
   grid-area: banner;
   background-color: #050505;
@@ -231,10 +244,22 @@ button {
   text-align: center;
 }
 
+.fotos_tienda {
+  width: 100%;
+  height: 15rem;
+}
+
 .formulario {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: baloo "Baloo 2", cursive;
+  flex-direction: column;
+  align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.espacioform {
+  margin-top: 3.5rem;
 }
 
 .prueba {
@@ -277,6 +302,10 @@ button {
 }
 .menu li:hover {
   background-color: #00fd33;
+}
+
+.nav-link {
+  color: black;
 }
 
 .menu-button-container {
@@ -335,6 +364,10 @@ button {
   opacity: 0.7;
 }
 
+.active {
+  color: #00fd33 !important;
+}
+
 @media screen and (max-width: 992px) {
   .caja_padre {
     grid-template-columns: repeat(2, 1fr);
@@ -358,9 +391,9 @@ button {
     align-items: center;
   }
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 767px) {
   img {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
   }
   .seccion-contacto {
@@ -386,6 +419,13 @@ button {
     flex-direction: column;
     align-items: center;
     align-content: center;
+  }
+  .formulario {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  .foto_index {
+    width: 100%;
   }
 }
 /********BOSTRAP MENU********/
@@ -418,6 +458,29 @@ button {
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+}
+@media (min-width: 750px) and (max-width: 1439px) {
+  .foto_index {
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .foto_index {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  iframe {
+    width: 65%;
+    height: 50rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .foto_index {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 

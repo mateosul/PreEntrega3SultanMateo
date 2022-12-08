@@ -1,10 +1,17 @@
 @import "mixins";
 
-.formulario{
-    font-size: 2rem;
-@include flexbox2;
-}
+.formulario {
+    font-size: 2.5rem;
+    font-family: baloo "Baloo 2", cursive;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 
+.espacioform {
+    margin-top: 3.5rem;
+}
 
 .prueba{
     background-color: #b105a2;
