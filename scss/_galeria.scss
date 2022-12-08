@@ -1,28 +1,26 @@
 @import "mixins";
 
-.div__fotosGaleria{
-    @include flexbox2;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+.div__fotosGaleria {
+  @include flexbox2;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 
-    img{
-        width: 35rem;
-        height: 35rem;
-    }
+  img {
+    width: 35rem;
+    height: 35rem;
+  }
 }
 
-.h1_galeria{
-    margin-bottom: 3rem;   
+.h1_galeria {
+  margin-bottom: 3rem;
 }
 
 .div_galeria {
-    @include flexbox2;
-    
+  @include flexbox2;
 }
 
-.grupo_fotos1{
-    
-    display: flex;
-    flex-wrap: nowrap;
+.grupo_fotos1 {
+  display: flex;
+  flex-wrap: nowrap;
 }

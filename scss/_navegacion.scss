@@ -14,7 +14,6 @@
   opacity: 0.7;
 }
 
-
 /*************MENU NAVEGACION*****************/
 
 .menu {
@@ -24,12 +23,12 @@
   margin: 0;
   padding: 0;
 
-li {
+  li {
     margin: 0 1rem;
     overflow: hidden;
-}
+  }
 
-  li:hover{
+  li:hover {
     background-color: #00fd33;
   }
 }
@@ -37,7 +36,6 @@ li {
 .nav-link {
   color: black;
 }
-
 
 .menu-button-container {
   display: none;
@@ -88,7 +86,6 @@ li {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
-
 
 .logo {
   width: 300px;

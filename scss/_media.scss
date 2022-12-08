@@ -34,19 +34,24 @@
     align-items: center;
   }
 
-  img{
+  img {
     width: 100%;
-    
   }
 
-  .div__fotosGaleria{
+  .div__fotosGaleria {
     max-width: 90%;
     margin: 0 auto;
     height: 35%;
   }
 
-  .fotos_galeria{
+  .fotos_galeria {
     width: 80%;
+  }
+
+  .seccion-contacto {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
   }
 }
 
@@ -92,7 +97,7 @@
     justify-content: center;
   }
 
-  .div_index-video_img{
+  .div_index-video_img {
     margin-top: 1rem;
     width: 100%;
   }

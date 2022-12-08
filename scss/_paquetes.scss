@@ -1,51 +1,50 @@
 @import "variables";
 @import "mixins";
 
-.div__tabla1{
-    margin-top: 2rem;
+.div__tabla1 {
+  margin-top: 2rem;
 }
 
-table{
-text-align: center;
-border: solid;
+table {
+  text-align: center;
+  border: solid;
 }
 
-th{
-font-size: $letra-grande;
-border: solid 1rem red;
-color: #00fd33;
-background-color: $color-titulos;
+th {
+  font-size: $letra-grande;
+  border: solid 1rem red;
+  color: #00fd33;
+  background-color: $color-titulos;
 }
 
 td {
-border: solid 1rem blue;
-font-size: 1.5rem;
-color: $color-secundario;
-background-color: $color-titulos;
+  border: solid 1rem blue;
+  font-size: 1.5rem;
+  color: $color-secundario;
+  background-color: $color-titulos;
 }
 
-
-.h2-h3-paquetes{
-   color: rgb(11, 138, 241);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: $color-secundario;
-   }
-
-.h3_paquetes{
-    text-align: center;
-    margin: 1rem 1rem ;
+.h2-h3-paquetes {
+  color: rgb(11, 138, 241);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: $color-secundario;
 }
 
-.div_paquetes{
-    @include flexbox2;
-   }
-
-.grupo_fotos1{
-    margin-bottom: 3rem;
+.h3_paquetes {
+  text-align: center;
+  margin: 1rem 1rem;
 }
 
-.div_tabla{
-   @include flexbox2;
-    margin-top: 1rem;
+.div_paquetes {
+  @include flexbox2;
+}
+
+.grupo_fotos1 {
+  margin-bottom: 3rem;
+}
+
+.div_tabla {
+  @include flexbox2;
+  margin-top: 1rem;
 }

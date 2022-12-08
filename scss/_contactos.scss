@@ -1,26 +1,31 @@
 @import "mixins";
 
 .formulario {
-    font-size: 2.5rem;
-    font-family: baloo "Baloo 2", cursive;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
+  font-size: 2.5rem;
+  font-family: baloo "Baloo 2", cursive;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
 .espacioform {
-    margin-top: 3.5rem;
+  margin-top: 3.5rem;
 }
 
-.prueba{
-    background-color: #b105a2;
-    width: 500px;
-    color: #0008ff;
+.prueba {
+  background-color: #b105a2;
+  width: 500px;
+  color: #0008ff;
 }
 
-.seccion-contacto{
-    margin-top: 5rem;
-   @include flexbox2;
+.seccion-contacto {
+  margin-top: 5rem;
+  @include flexbox2;
 }
 
+.botonform {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
